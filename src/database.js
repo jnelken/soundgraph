@@ -5,6 +5,8 @@ const JUICE_WORLD = 805856467;
 const SIX_NINE = 815074948;
 const FUTURE = 819894787;
 const LIL_BABY = 805851367;
+const FIRST_DESPAIR_THEN_HOPE = 826727410;
+const FIRST_DESPAIR_THEN_HOPE_BASS = 826748818;
 
 export const database = {
   [NLE_CHOPPA]: { from: null },
@@ -14,4 +16,7 @@ export const database = {
   [FUTURE]: { from: SIX_NINE },
   [LIL_BABY]: { from: FAYGO },
   [JUICE_WORLD]: { from: LIL_BABY },
+
+  [FIRST_DESPAIR_THEN_HOPE]: { from: null },
+  [FIRST_DESPAIR_THEN_HOPE_BASS]: { from: FIRST_DESPAIR_THEN_HOPE },
 };
