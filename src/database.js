@@ -7,6 +7,8 @@ const FUTURE = 819894787;
 const LIL_BABY = 805851367;
 const FIRST_DESPAIR_THEN_HOPE = 826727410;
 const FIRST_DESPAIR_THEN_HOPE_BASS = 826748818;
+const BEATBOX = 826761601;
+const BEATBOX_2 = 826765663;
 
 export const database = {
   [NLE_CHOPPA]: { from: null },
@@ -19,4 +21,7 @@ export const database = {
 
   [FIRST_DESPAIR_THEN_HOPE]: { from: null },
   [FIRST_DESPAIR_THEN_HOPE_BASS]: { from: FIRST_DESPAIR_THEN_HOPE },
+
+  [BEATBOX]: { from: null },
+  [BEATBOX_2]: { from: BEATBOX },
 };
